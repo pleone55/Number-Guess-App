@@ -47,7 +47,7 @@ const StartGameScreen = props => {
             <View style={styles.screen}>
                 <Text style={styles.title}>Start a New Game</Text>
                 <Card style={styles.inputContainer}>
-                    <Text>Select a Number</Text>
+                    <Text style={styles.text}>Select a Number</Text>
                     <Input 
                         style={styles.input} 
                         blurOnSubmit 
@@ -77,7 +77,8 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 20,
-        marginVertical: 15
+        marginVertical: 15,
+        // fontFamily: 'open-sans-bold'
     },
     inputContainer: {
         width: 300,
